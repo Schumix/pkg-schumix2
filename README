@@ -1,0 +1,2 @@
+Pkg create: dpkg-deb --build <pkgname>
+Install: sudo dpkg -i <pkgname>
