@@ -1,0 +1,6 @@
+Name: Schumix.CompilerAddon
+Description: Schumix.CompilerAddon
+Version: 3.x
+
+Requires: 
+Libs: -r:/usr/lib/schumix2/CompilerAddon.dll

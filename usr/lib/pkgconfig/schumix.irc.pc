@@ -1,0 +1,6 @@
+Name: Schumix.Irc
+Description: Schumix.Irc
+Version: 3.x
+
+Requires: 
+Libs: -r:/usr/lib/schumix2/Schumix.Irc.dll

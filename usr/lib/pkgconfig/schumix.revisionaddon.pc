@@ -1,0 +1,6 @@
+Name: Schumix.RevisionAddon
+Description: Schumix.RevisionAddon
+Version: 3.x
+
+Requires: 
+Libs: -r:/usr/lib/schumix2/RevisionAddon.dll

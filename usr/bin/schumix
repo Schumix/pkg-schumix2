@@ -1,0 +1,33 @@
+#!/bin/bash
+
+config_file="$HOME/.config/Schumix2/Schumix.xml"
+config_dir="$HOME/.config/Schumix2"
+addons="$HOME/.config/Schumix2/Addons"
+sqlite="$HOME/.config/Schumix2/Schumix.db3"
+
+if [ -e $config_file ]; then
+	echo "";
+else
+	if [ -e $config_dir ]; then
+		echo "";
+	else
+		mkdir $config_dir
+	fi
+
+	cp /usr/share/schumix2/Schumix.xml $config_file
+fi
+
+if [ -e $sqlite ]; then
+	echo "";
+else
+	cp /usr/lib/schumix2/Schumix.db3 $sqlite
+fi
+
+if(ls | grep $addons); then
+	echo "";
+else
+	cp -R /usr/lib/schumix2/Addons $addons
+fi
+
+cd /
+exec mono "/usr/lib/schumix2/Schumix.exe" "--config-dir=$config_dir" "$@"
