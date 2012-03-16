@@ -23,10 +23,10 @@ else
 	cp /usr/lib/schumix2/Schumix.db3 $sqlite
 fi
 
-if(ls | grep $addons); then
+if [ -e $addons ]; then
 	echo "";
 else
-	cp -R /usr/lib/schumix2/Addons $addons
+	cp -R /usr/lib/schumix2/Addons $config_dir
 fi
 
 cd /
