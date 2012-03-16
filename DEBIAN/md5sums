@@ -1,9 +1,9 @@
 2fe6bf103cbcdb2c510c89fb2e8b2d76  ./DEBIAN/postrm
 e6c8c0b0c251080a09f8a1faca309b06  ./DEBIAN/md5sums
 2fe6bf103cbcdb2c510c89fb2e8b2d76  ./DEBIAN/postinst
-a81cc5e2151d94af6f3b61e8bf48c31b  ./DEBIAN/control
+e6fe437c1dd4ddcb3452503b2c875c4d  ./DEBIAN/control
 da65e4ce07c2d835a30ea5704528df47  ./usr/bin/schumix.server
-8a65f7f05a21b02e648453b0e4ec56b6  ./usr/bin/schumix
+1b6a87500402d4bf042f57ffe8925880  ./usr/bin/schumix
 a31cf003a1631a30fa8667d811c2856e  ./usr/lib/pkgconfig/schumix.calendaraddon.pc
 0537ff9910705f5601a34f625e4262c2  ./usr/lib/pkgconfig/schumix.libraries.pc
 07e3742b012a9122bee8856ca6223ae5  ./usr/lib/pkgconfig/schumix.gameaddon.pc
@@ -67,4 +67,11 @@ aec563af8202067442f27ba64cd2dde5  ./usr/lib/schumix2/Mono.Posix.dll
 483766fd7ed5453f92c4282741633288  ./usr/lib/schumix2/xbuild.exe
 0dd334a75a245d02ed9f8811d87130de  ./usr/lib/schumix2/System.Data.SQLite.dll
 664aa96239b59b044722945d56f70200  ./usr/share/doc/schumix2/LICENSE
+0ee8c29202cf83970b9f14b2671ee4a6  ./usr/share/icons/hicolor/16x16/apps/schumix2.png
+a59936fce3e2b58fd7051fa81d246277  ./usr/share/icons/hicolor/32x32/apps/schumix2.png
+0ee8c29202cf83970b9f14b2671ee4a6  ./usr/share/icons/hicolor/22x22/apps/schumix2.png
+166a206f84b3b48faf1b56224e1d58b9  ./usr/share/icons/hicolor/24x24/apps/schumix2.png
+c20bd52acc7b740776375f4f6db10b1a  ./usr/share/icons/hicolor/64x64/apps/schumix2.png
+02a10811725eb2159e0284295ff43ddb  ./usr/share/icons/hicolor/48x48/apps/schumix2.png
 c30f270cba879b3c3cc2fd722a9ac6b8  ./usr/share/schumix2/Schumix.xml
+3e167a31db975e41a8a3c56340ca042d  ./usr/share/applications/schumix2.desktop
