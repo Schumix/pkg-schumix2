@@ -1,9 +1,9 @@
 #!/bin/bash
 
-config_file="$HOME/.config/Schumix2/Schumix.xml"
-config_dir="$HOME/.config/Schumix2"
-addons="$HOME/.config/Schumix2/Addons"
-sqlite="$HOME/.config/Schumix2/Schumix.db3"
+config_file="$HOME/.Schumix2/config/Schumix.xml"
+config_dir="$HOME/.Schumix2/config"
+addons="$HOME/.Schumix2/Addons"
+sqlite="$HOME/.Schumix2/Schumix.db3"
 
 if [ -e $config_file ]; then
 	echo "";
