@@ -38,7 +38,7 @@
         <FileName>Schumix.log</FileName>
         <LogLevel>2</LogLevel>
         <LogDirectory>$home/.config/Schumix2/Logs</LogDirectory>
-        <IrcLogDirectory>$home/.config/Schumix2/Channels</IrcLogDirectory>
+        <IrcLogDirectory>$home/.Schumix2/config/Channels</IrcLogDirectory>
         <IrcLog>False</IrcLog>
     </Log>
     <MySql>
