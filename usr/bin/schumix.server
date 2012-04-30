@@ -1,6 +1,6 @@
 #!/bin/bash
 
-config_dir="$HOME/.config/Schumix2"
+config_dir="$HOME/.Schumix2/config"
 
 if [ -e  $config_dir ]; then
 	echo "";
