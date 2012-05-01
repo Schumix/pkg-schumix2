@@ -1,7 +1,7 @@
 #!/bin/bash
 
-config_file="$HOME/.Schumix2/config/Schumix.xml"
-config_dir="$HOME/.Schumix2/config"
+config_file="$HOME/.Schumix2/Configs/Schumix.xml"
+config_dir="$HOME/.Schumix2/Configs"
 addons="$HOME/.Schumix2/Addons"
 sqlite="$HOME/.Schumix2/Schumix.db3"
 

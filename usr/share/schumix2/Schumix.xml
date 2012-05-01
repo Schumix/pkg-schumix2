@@ -37,8 +37,8 @@
     <Log>
         <FileName>Schumix.log</FileName>
         <LogLevel>2</LogLevel>
-        <LogDirectory>$home/.config/Schumix2/Logs</LogDirectory>
-        <IrcLogDirectory>$home/.Schumix2/config/Channels</IrcLogDirectory>
+        <LogDirectory>$home/.Schumix2/Logs</LogDirectory>
+        <IrcLogDirectory>$home/.Schumix2/Channels</IrcLogDirectory>
         <IrcLog>False</IrcLog>
     </Log>
     <MySql>
@@ -51,16 +51,16 @@
     </MySql>
     <SQLite>
         <Enabled>true</Enabled>
-        <FileName>$home/.config/Schumix2/Schumix.db3</FileName>
+        <FileName>$home/.Schumix2/Schumix.db3</FileName>
     </SQLite>
     <Addons>
         <Enabled>True</Enabled>
         <Ignore>MantisBTRssAddon,SvnRssAddon,GitRssAddon,HgRssAddon,WordPressRssAddon,TesztAddon</Ignore>
-        <Directory>/usr/lib/schumix2/Addons</Directory>
+        <Directory>$home/.Schumix2/Addons</Directory>
     </Addons>
     <Scripts>
         <Lua>False</Lua>
-        <Directory>$home/.config/Schumix2/Scripts</Directory>
+        <Directory>$home/.Schumix2/Scripts</Directory>
     </Scripts>
     <Localization>
         <Locale>enUS</Locale>
