@@ -3,4 +3,4 @@ Description: Schumix.SvnRssAddon
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/lib/schumix2/SvnRssAddon.dll
+Libs: -r:/usr/local/lib/schumix/SvnRssAddon.dll

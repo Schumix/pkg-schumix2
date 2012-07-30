@@ -1,6 +1,6 @@
 #!/bin/bash
 
-config_file="$HOME/.Schumix2/Configs/Schumix.xml"
+config_file="$HOME/.Schumix2/Configs/Schumix.yml"
 config_dir="$HOME/.Schumix2/Configs"
 addons="$HOME/.Schumix2/Addons"
 sqlite="$HOME/.Schumix2/Schumix.db3"
@@ -14,7 +14,7 @@ else
 		mkdir $config_dir
 	fi
 
-	cp /usr/share/schumix2/Schumix.xml $config_file
+	cp /usr/share/schumix2/Schumix.yml $config_file
 fi
 
 if [ -e $sqlite ]; then
@@ -26,7 +26,7 @@ fi
 if [ -e $addons ]; then
 	echo "";
 else
-	cp -R /usr/lib/schumix2/Addons $config_dir
+	cp -R /usr/lib/schumix2/Addons $addons
 fi
 
 cd /

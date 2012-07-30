@@ -3,4 +3,4 @@ Description: Schumix.LuaEngine
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/lib/schumix2/Schumix.LuaEngine.dll
+Libs: -r:/usr/local/lib/schumix/Schumix.LuaEngine.dll

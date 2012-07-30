@@ -1,9 +1,9 @@
 Package: schumix2
-Version: 3.7.4-1
+Version: 3.8.8
 Architecture: i386
 Maintainer: Csaba Jakosa <megax@yeahunter.hu>
 Depends: 
 Conflicts: 
-Section: utils
+Section: Schumix
 Priority: optional
 Description: Schumix2 IRC Bot and Framework

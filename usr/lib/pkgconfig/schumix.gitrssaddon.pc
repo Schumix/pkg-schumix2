@@ -3,4 +3,4 @@ Description: Schumix.GitRssAddon
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/lib/schumix2/GitRssAddon.dll
+Libs: -r:/usr/local/lib/schumix/GitRssAddon.dll

@@ -3,4 +3,4 @@ Description: Schumix.Irc
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/lib/schumix2/Schumix.Irc.dll
+Libs: -r:/usr/local/lib/schumix/Schumix.Irc.dll
