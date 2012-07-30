@@ -3,4 +3,4 @@ Description: Schumix.RevisionAddon
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/local/lib/schumix/RevisionAddon.dll
+Libs: -r:/usr/lib/schumix2/RevisionAddon.dll

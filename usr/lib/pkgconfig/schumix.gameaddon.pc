@@ -3,4 +3,4 @@ Description: Schumix.GameAddon
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/local/lib/schumix/GameAddon.dll
+Libs: -r:/usr/lib/schumix2/GameAddon.dll

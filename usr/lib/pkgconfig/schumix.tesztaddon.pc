@@ -3,4 +3,4 @@ Description: Schumix.TesztAddon
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/local/lib/schumix/TesztAddon.dll
+Libs: -r:/usr/lib/schumix2/TesztAddon.dll

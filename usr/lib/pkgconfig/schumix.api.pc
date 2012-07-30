@@ -3,4 +3,4 @@ Description: Schumix.API
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/local/lib/schumix/Schumix.API.dll
+Libs: -r:/usr/lib/schumix2/Schumix.API.dll

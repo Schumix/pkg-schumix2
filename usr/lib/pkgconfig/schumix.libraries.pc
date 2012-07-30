@@ -3,4 +3,4 @@ Description: Schumix.Libraries
 Version: 3.x
 
 Requires: 
-Libs: -r:/usr/local/lib/schumix/Schumix.Libraries.dll
+Libs: -r:/usr/lib/schumix2/Schumix.Libraries.dll
